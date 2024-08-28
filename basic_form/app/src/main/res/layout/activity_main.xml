@@ -59,10 +59,10 @@
         android:text="LogIn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintVertical_bias="0.128" />
+        app:layout_constraintVertical_bias="0.227" />
 
     <Button
         android:id="@+id/reset"
@@ -71,10 +71,10 @@
         android:text="Reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login"
-        app:layout_constraintVertical_bias="0.036" />
+        app:layout_constraintVertical_bias="0.052" />
 
     <TextView
         android:id="@+id/result"
@@ -83,10 +83,9 @@
         android:text=" "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reset"
-        app:layout_constraintVertical_bias="0.194" />
+        app:layout_constraintVertical_bias="0.426" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
